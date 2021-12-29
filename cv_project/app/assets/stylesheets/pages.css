@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: rgb(242, 248, 242);
+  }
+
+  .cv_top {
+    margin-top: 30px;
+    padding: 0 calc(55% - 500px);
+  }
+
+  .cv {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.55);
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: rgb(218, 216, 217);
+    font-family: sans-serif;
+  }
+
+  .cv_head {
+    background-color: #f14501;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 25px 90px;
+    border-radius: 10px 10px 0 0;
+    color: rgb(236, 236, 236);
+  }
+
+  .about {
+    flex-grow: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .name {
+    font-size: 2em;
+  }
+
+  .contacts {
+    font-size: 10pt;
+    margin-top: 10px;
+  }
+
+
+  .student {
+    font-size: 1em;
+    font-weight: 700;
+  }
+
+  .photo_main {
+    flex-grow: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .footer {
+    color: #030303;
+    padding: 20px 90px;
+  }
+
+  .info {
+    margin-bottom: 25px;
+  }
+
+  .info_second {
+    margin-bottom: 10px;
+  }
+
+  .info_first {
+    font-size: 21px;
+    text-transform: uppercase;
+  }
